@@ -17,8 +17,31 @@ This app allows users to view:
 2. For **Asteroid Tracker**, select a date and view the list of asteroids passing by Earth on that date.
 3. **Astronomical Events** will display key events for the year you select.
 
-## Deployment
-To run this app locally:
+## Installation
+
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   `git clone https://github.com/MYSTERY2804/Asteroid_and_Space-data.git`
+
+2. Navigate to the project directory:
+   `cd Asteroid_and_Space-data`
+
+3. Set up a virtual environment (if using Python):
+   `python -m venv venv`
+
+4. Activate the virtual environment:
+   - **Windows**:
+     `venv\Scripts\activate`
+   - **Mac/Linux**:
+     `source venv/bin/activate`
+
+5. Install the dependencies:
+   `pip install -r requirements.txt`
+
+## Running the Project
+
+1. Run the app with:
+   `streamlit run app.py`
+
+2. The app should now be running locally, and you can interact with it through your browser at `http://localhost:8501`.
+
+
